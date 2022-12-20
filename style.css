@@ -1,0 +1,158 @@
+/*
+ * Title: To Do List CSS file
+ * Description: This file has all the styles associated with the To Do App project
+ * Author: Sumit Saha ( Learn with Sumit )
+ * Date: 12/16/2020
+ *
+ */
+ @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+ * {
+   box-sizing: border-box;
+ }
+ .item {
+   display: none;
+ }
+ .container {
+   background: #d3efdf;
+   padding: 10px;
+   max-width: 960px;
+   margin: 10px auto;
+   overflow: hidden;
+   border-radius: 10px;
+   border: 1px solid #b1c9bb;
+   font-family: "Itim", cursive;
+ }
+ 
+ h1,
+ h2 {
+   margin: 0;
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Itim", cursive;
+ }
+ 
+ h2 {
+   font-size: 18px;
+   text-align: center;
+   border-bottom: 1px solid #b1c9bb;
+   padding: 0 0 1px;
+   color: #57635c;
+ }
+ 
+ .logo {
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .logo img {
+   width: 80px;
+ }
+ 
+ .new-task-container {
+   text-align: center;
+ }
+ 
+ .box {
+   padding: 10px 15px;
+   border: 1px solid #b1c9bb;
+   border-radius: 5px;
+   background: #fff;
+   margin: 5px 0;
+ }
+ 
+ .todo-list {
+   float: left;
+   width: 46%;
+ }
+ 
+ .complete-list {
+   float: right;
+   width: 46%;
+ }
+ 
+ ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ li {
+   padding: 5px;
+   border-bottom: 1px dotted #ccc;
+ }
+ 
+ .update {
+   float: right;
+   background-color: blue;
+   color: white;
+   border: 0px;
+   padding: 3px 5px;
+ }
+ 
+ .delete {
+   float: right;
+   background-color: red;
+   color: white;
+   border: 0px;
+   padding: 3px 5px;
+   font-family: "Itim", cursive;
+ }
+ 
+ #addTask,
+ #new-task {
+   font-family: "Itim", cursive;
+   font-size: 18px;
+ }
+ 
+ #new-task {
+   width: 50%;
+ }
+ 
+ #items,
+ #a {
+   font-size: 18px;
+ }
+ 
+ form {
+   font-family: "Itim", cursive;
+   font-size: 18px;
+ }
+
+
+ /* clock */
+ 
+
+.clockdate-wrapper {
+    /* background: #012502;  fallback for old browsers
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: #b1c9bb; */
+    padding:5px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+  
+}
+#clock{
+    font-family: "Itim", cursive;
+    font-size:25px;
+    text-shadow:0px 0px 1px #fff;
+    color:rgb(11, 80, 2);
+}
+#clock span {
+    color:rgb(11, 80, 2);
+    /* text-shadow:0px 0px 1px #333; */
+    font-size:20px;
+    position:relative;
+    /* top:-5px; */
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family: Orbitron;
+    color:rgb(11, 80, 2);
+    font-weight: bold;
+}
